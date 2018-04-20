@@ -1,0 +1,55 @@
+# Site Info
+title:              "孟想"
+description:        "The Plain is a minimalist Jekyll theme, that's it. Can't say anymore..."
+
+# Google APIs
+google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Your Google Verification - set to 'false' to disable
+google_analytics:   UA-XXXXXXX-X # Your Google Analytics code - set to 'false' to disable
+
+# Author Info
+author_name:        "孟想"
+author_email:       LinkMon@qq.com
+author_gravatar:    e07931af1a9cbc90b0c3610ecfc5f2a6 # Gravatar md5 hash (of email) here for logo - set to 'false' to disable
+twitter_username:   mlkey # set to 'false' to disable
+github_username:    mlkey # set to 'false' to disable
+
+# Site Settings
+url:                http://lowshi.com # main url
+baseurl:            /blog # for gh-pages
+permalink:          /:year/:month/:title # Post permalink
+timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+plugins:
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+remote_theme: heiswayi/the-plain
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"
