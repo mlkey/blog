@@ -12,7 +12,7 @@ author_email:       LinkMon@qq.com
 author_gravatar:    e07931af1a9cbc90b0c3610ecfc5f2a6 # Gravatar md5 hash (of email) here for logo - set to 'false' to disable
 twitter_username:   mlkey # set to 'false' to disable
 github_username:    mlkey # set to 'false' to disable
-host: 0.0.0.0
+
 
 # Site Settings
 url:                http://lowshi.com # main url
@@ -20,6 +20,7 @@ baseurl:            /blog # for gh-pages
 permalink:          /:year/:month/:title # Post permalink
 timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
+# host: 0.0.0.0
 
 # Site Build
 highlighter:        rouge
