@@ -151,13 +151,14 @@ $$
 $$
 数学公式 $$\eqref{eq:2}$$：
 
-$$ \Phi=\frac{a_{n-1}}{a_n}=\frac{\sqrt{5}-1}{2}=0.6180339887 \tag{2}\label{eq:2} $$
+$$ \Phi=\frac{a_{n-1}}{a_n}=\frac{\sqrt{5}-1}{2}=0.618 \tag{2}\label{eq:2} $$
 
 化学方程式 $$\eqref{eq:3}$$：
 
 $$
 2H_2+O_2 \Rightarrow 2H_2O \\
-(NH_4)_2SO_4+Ba(OH)_2 \Rightarrow BaSO_4 \downarrow +2NH_3\uparrow +2H_2O \\
+(NH_4)_2SO_4+Ba(OH)_2 \Rightarrow \\
+BaSO_4 \downarrow +2NH_3\uparrow +2H_2O \\
 2HgO \stackrel{\Delta}{\Leftrightarrow} 2Hg + O^2 \uparrow \tag{3} \label{eq:3}\\
 2H^+ + CO_2^{-3} \Rightarrow H_2O + CO_2 \uparrow
 $$
