@@ -3,7 +3,7 @@ title: 暗网术语表
 updated: 2018-04-29 11:54:49 +0800
 ---
 
-![Darknet](/blog/assets/img/2018/042900.png)
+![Darknet](/blog/assets/img/2018/042900.jpg)
 
 **Alias**: A screen name intended to conceal a user's identity, with little to no ties to the user's actual personal information.
 
