@@ -1,6 +1,6 @@
 # Site Info
 title:              "孟想"
-description:        "The Plain is a minimalist Jekyll theme, that's it. Can't say anymore..."
+description:        "Run with the dream, just for fun!"
 
 # Google APIs
 google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Your Google Verification - set to 'false' to disable
@@ -20,7 +20,8 @@ baseurl:            /blog # for gh-pages
 permalink:          /:year/:month/:title # Post permalink
 timezone:           Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
-# host: 0.0.0.0
+# host:             0.0.0.0 for LAN 
+port:               3000
 
 # Site Build
 highlighter:        rouge
