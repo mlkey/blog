@@ -3,8 +3,8 @@ layout: page
 title: About
 ---
 
-Hello.
+你好！
 
-This will be your About page. Anything about you, it should be written here in details. You may describe your bio here like who you are, what you do, your intention, social site hyperlinks and how people can contact you, etc.
+欢迎访问我的博客！
 
-**Less is more..**
+我是孟想，喜欢互联网、马拉松、电影、文博、滑雪、游泳等等，爱折腾一些小玩意儿，在这里，我会整理和输出一些自己感兴趣的内容，just for fun.如需交流，请加微信 LinkMon（备注Lowshi）。
