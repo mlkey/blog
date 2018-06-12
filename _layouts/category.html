@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<article>
+
+	<h1 class="title">{{ page.title }}</h1>
+
+	<div class="divider"></div>
+
+</article>
+
+<section>
+
+	{% for post in site.categories[page.category] %}
+		
+		<ul>
+			<li>
+				<div class="post-date">
+					<span>{{ post.date | date: "%b %d, %Y" }}</span>
+				</div>
+				<div class="title">
+					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+				</div>
+			</li>
+		</ul>
+
+	{% endfor %}
+
+</section>
+
+{{ content }}
